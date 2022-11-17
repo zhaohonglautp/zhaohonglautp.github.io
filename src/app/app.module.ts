@@ -12,6 +12,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ToDoComponent } from './to-do/to-do.component';
 import { RemindersComponent } from './reminders/reminders.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RemindersComponent } from './reminders/reminders.component';
     SignUpComponent,
     ProfileComponent,
     ToDoComponent,
-    RemindersComponent
+    RemindersComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
