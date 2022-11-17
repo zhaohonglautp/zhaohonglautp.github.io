@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-
 *
 {
     margin: 0;
@@ -18,77 +17,4 @@ body
     background-size: 1500px;
     height: 200px;
     width: 200px;
-}
-
-.navigation
-{
-    position: fixed;
-    width: 60px;
-    height: 100%;
-    background: #30c781;
-    transition: 0.5s;
-    overflow: hidden;
-}
-
-.navigation:hover,
-.navigation.active
-{
-    width: 300px;
-}
-
-
-.navigation ul
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-.navigation ul li
-{
-    position: relative;
-    width: 100%;
-    list-style: none;
-}
-
-.navigation ul li:hover
-{
-    background: #69fdb8;
-}
-
-.navigation ul li a
-{
-    position: relative;
-    display: block;
-    width: 100%;
-    display: flex;
-    text-decoration: none;
-    color: #000;
-}
-
-.navigation ul li a .icon
-{
-    position: relative;
-    display: block;
-    min-width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-}
-
-.navigation ul li a .icon .fa
-{
-    font-size: 24px;
-}
-
-.navigation ul li a .title
-{
-    position: relative;
-    display: block;
-    padding: 0 10px;
-    height: 60px;
-    line-height: 60px;
-    text-align: start;
-    white-space: nowrap;
 }
