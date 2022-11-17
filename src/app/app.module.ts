@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { IonicModule } from "@ionic/angular";
 import { SettingsComponent } from './settings/settings.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SettingsComponent,
-    NavBarComponent
+    NavBarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
