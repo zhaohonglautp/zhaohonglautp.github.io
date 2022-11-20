@@ -12,3 +12,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Roadmap
+
+- [x] Chatbot Implementation
+- [ ] User Authentication using JWT
+- [ ] CRUD for To-Do List
+- [ ] CRUD for Users
+- [ ] CRUD for Reminders
+- [ ] Reminder Notification
