@@ -18,15 +18,12 @@
     "@angular/platform-browser": "^14.2.10",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-<<<<<<< HEAD
+    "@ionic/angular": "^6.3.7",
     "axios": "^1.1.3",
     "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.2",
     "express": "^4.18.2",
     "mongodb": "^4.12.0",
-=======
-    "@ionic/angular": "^6.3.7",
-    "bootstrap": "^5.2.2",
->>>>>>> master
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
